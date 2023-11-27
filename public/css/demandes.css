@@ -1,0 +1,258 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c9c9c9;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+
+.P-D{
+    margin-top: 65px;
+    background-color:#ffff;
+    margin-left: 242px;
+    width: 85%;
+ }
+
+ .titre-de-listeDemandes{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin-right: 21px;
+ }
+ #span-t2{
+    color:#ff3c74;
+  /* color:#4fdd36 */
+ }
+ .search-container-demandes{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: -40px;
+
+ }
+ #Searchdem{
+  margin-top: 30px;
+  margin-left: -25px;
+  box-shadow: 0 0 10px 5px rgb(55 74 97 / 10%);
+  padding: 10px;
+}
+.BarreSearch{
+  display: flex;
+}
+.BTN_BARRESEARCH{
+  display: flex;
+}
+.input-barreSearch{
+  display: flex;
+}
+.demandes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 37px;
+    margin-bottom: 100px;
+    height: 500px;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+
+ .card1{
+    width: 400px;
+    height: 518px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px 5px rgb(55 74 97 / 10%);
+    background-color: #fff;
+    margin-top: 30px;
+
+ }
+ .info-prfl{
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #333333;
+
+ }
+ .img-prfl img{
+    width: 40px;
+    height: 40px;
+    border-radius: 26px;
+ }
+ .info-perso{
+    width: 360px;
+    height: 80px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+ }
+ .image-dem{
+    width: 360px;
+    height: 200px;
+    margin-left: 20px;
+ }
+
+ .desc-dem{
+    width: 360px;
+    margin-left: 20px;
+    height: 22%;
+ }
+
+ .image-dem img{
+    width: 360px;
+    height: 200px;
+    border-radius: 7px;
+ }
+
+ .text-dem{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    height: 100px;
+    overflow-y: auto;
+ }
+.text-prixdem{
+   margin-left: 20px;
+}
+.locationn{
+   margin-left: 18px;
+}
+#locat{
+   color: #ff3c74
+}
+#comf-btn{
+  box-shadow: none;
+}
+#comf-btn1{
+  box-shadow: none;
+}
+.btn-primary:hover {
+   background-color: #0069d9;
+}
+
+.alert {
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid transparent;
+   border-radius: 4px;
+}
+
+.alert-danger {
+   color: #a94442;
+   background-color: #f2dede;
+   border-color: #ebccd1;
+}
+.butns{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 17px;
+   align-items: center;
+ }
+
+
+
+  @media screen and (max-width:620px){
+      .services-p{
+      width: 50%;
+    }
+    #Searchdem {
+    margin-top: 30px;
+    margin-left: -53px;
+    box-shadow: 0 0 10px 5px rgb(55 74 97 / 10%);
+    padding: 10px;
+  }
+  .titre-de-listeDemandes {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+
+    margin-left: -107px;
+}
+    .input-barreSearch{
+      display: block;
+    }
+    .BarreSearch{
+      display: block;
+    }
+    .BTN_BARRESEARCH{
+      display: block;
+      margin-left: 33px;
+      margin-top: 18px;
+    }
+    .search-container-demandes{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin-left: -61px;
+     }
+    .card1{
+      width: 245px;
+      height: 366px;
+      border-radius: 7px;
+      box-shadow: 0 0 10px 5px rgb(55 74 97 / 10%);
+      background-color: #fff;
+      margin-top: 30px;
+      margin-left: -124px;
+
+   }
+   .info-perso{
+      width: 160px;
+      height: 40px;
+      margin-left: 20px;
+      display: flex;
+      align-items: center;
+   }
+
+
+   .desc-dem{
+      width: 212px;
+      height:70px;
+      margin-left: 20px;
+      margin-bottom: 28px;
+   }
+   .text-dem{
+      margin-top: 10px;
+      font-family: 'Open Sans', sans-serif;
+      height: 100px;
+      overflow-y: auto;
+    }
+
+   .img-prfl img{
+      width: 25px;
+      height: 25px;
+      border-radius: 16px;
+   }
+   .info-prfl{
+      margin-left: 10px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1.3em;
+      font-weight: 600;
+      color: #333333;
+
+   }
+   .image-dem{
+      width: 200px;
+      height: 100px;
+      margin-left: 11px;
+   }
+   .image-dem img{
+      width: 212px;
+      height: 100px;
+      border-radius: 7px;
+      margin-left: 10px;
+   }
+
+
+  }
+
+
+

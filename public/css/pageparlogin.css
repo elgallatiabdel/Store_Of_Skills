@@ -1,0 +1,127 @@
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c9c9c9;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+body{
+   overflow: auto;
+   flex-wrap: wrap;
+}
+.main-part1{
+   display: flex;
+}
+.part1{
+   margin-top: 100px;
+   display: flex;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.logo-part1 img{
+   width: 110%;
+   height: 500px;
+}
+.P-1{
+   margin-left: 145px;
+}
+span{
+   color: #3cb626;
+}
+#text-part1{
+   margin-top: 125px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 4em;
+   font-weight: 900;
+}
+.PROPOSER {
+   color:#3cb626;
+}
+.TROUVER{
+   color:#ff3c74;
+}
+.part2{
+   display: flex;
+   justify-content: space-around;
+}
+
+.lien-part1,.lien-part2{
+   color: #fff;
+   text-decoration: none;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.2em;
+   font-weight: 400;
+}
+.lien-part1:hover{
+   color:white;
+}
+.lien-part2:hover{
+   color:white;
+}
+.button-part1{
+   width: 226px;
+   height: 45px;
+   border-radius: 6px;
+   background-color: #3cb626;
+   padding: 10px;
+   text-align: center;
+   margin-top: 50px;
+}
+.button-part1:hover{
+   background-color:#22910f;
+}
+.button-part2{
+   width: 226px;
+   height: 45px;
+   border-radius: 6px;
+   background-color:#ff3c74;
+   padding: 10px;
+   text-align: center;
+   margin-top: 50px;
+}
+.button-part2:hover{
+   background-color:#d02c5a;
+}
+@media screen and (max-width:620px){
+   nav{
+     width: 100%;
+   }.part1{
+        margin-top: 0px;
+        display: block;
+   }
+   #text-part1 {
+      font-size: 1.2em;
+      font-weight: 940;
+      margin-top: 0px;
+      margin-left: 212px;
+      width: 77%;
+  }
+  .part2 {
+   display: block;
+   margin-left: 243px;
+   }
+   .P-1{
+      margin-left: -107px;
+   }
+   .main-part1 {
+      width: 85%;
+   }
+   .logo-part1 img {
+    width: 75%;
+    height: 438px;
+    margin-left: 189px;
+   }
+}
